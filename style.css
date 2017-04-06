@@ -11,7 +11,7 @@ body
 padding: 0;
 background-image:url(images/background_blue.png);
 text-align: left;
-font-family: Georgia, Times New Roman, Times, serif;
+font-family:serif;
 font-size: 14px;
 color: #F1F5F8;}*
 {margin: 0 auto 0 auto;
@@ -21,7 +21,7 @@ html, body {text-align: center;}
 
 p {text-align: left;}
 
-.dotted_line
+.dotted_line_thing
 {background-image:url(images/dotted_line_yellow.png);
 background-repeat:no-repeat;
 clear:both;
@@ -36,7 +36,7 @@ color:#FFFFFF;
 text-align:left;
 font-size:28px;
 font-weight:bold;
-font-family:Arial, Helvetica, sans-serif;
+font-family:serif;
 padding-right:20px;}
 
 
@@ -80,12 +80,6 @@ padding-left:40px;
 color:#FFFFFF;
 font-size:28px;}
 
-#main .main_left h3
-{padding-bottom:20px;
-padding-left:50px;
-color:#C9E1FA;
-font-size:18px;}
-
 #main .main_right
 {padding-left:0px;
 height:auto;
@@ -97,7 +91,7 @@ padding-bottom:20px;
 float:left;}
 
 #main .main_right h2
-{font:Verdana, Arial, Helvetica, sans-serif;
+{font:serif;
 font-size:24px;
 padding-bottom:15px;}
 
@@ -115,20 +109,14 @@ padding-bottom:15px;}
 
 #footer 
 {display:block;
-width: 921px;
-height:74px;
-background: url(footer.png) no-repeat;
+width: 920px;
+height:75px;
 text-align:left;
-font-size:9px;
+font-size:10px;
 line-height:25px;}
 
-#footer p
-{padding-right:20px;
-text-align:left;}
-
-#footer, #footer a, #footer a:visited
+#footer, #footer a:visited
 {color:yellow;}
 
 #footer a:hover
-{text-decoration:none;
-color:#FFFFFF;}
+{color:#FFFFFF;}
